@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.edatech.devadmin">
+
+    <application
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name">
+        <provider
+            android:name="com.edatech.devadmin.MessagesContentProvider"
+            android:authorities="com.edatech"
+            android:enabled="true"
+            android:grantUriPermissions="true"
+            android:exported="true"/>
+    </application>
+</manifest>
